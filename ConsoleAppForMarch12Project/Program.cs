@@ -10,8 +10,13 @@ namespace ConsoleAppForMarch12Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
-            Console.WriteLine("World");
+            Person p = new Person();
+            p.FirstName = "Prince";
+            p.LastName = "Sharma";
+            p.Age = -1;
+
+            Console.WriteLine(p.ToFunnyString());
+            Console.WriteLine(p.ToString());
         }
     }
 }
