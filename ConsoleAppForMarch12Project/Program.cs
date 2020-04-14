@@ -12,7 +12,7 @@ namespace ConsoleAppForMarch12Project
         {
             Person p = new Person();
             p.FirstName = "Prince";
-            p.LastName = "Sharma";
+            p.LastName = "Sharmaa";
             p.Age = -1;
 
             Console.WriteLine(p.ToFunnyString());
