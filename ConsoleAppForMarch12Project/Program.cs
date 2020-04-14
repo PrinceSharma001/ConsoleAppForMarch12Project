@@ -10,6 +10,7 @@ namespace ConsoleAppForMarch12Project
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
